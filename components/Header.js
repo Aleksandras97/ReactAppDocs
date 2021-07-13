@@ -3,7 +3,7 @@ import Icon from "@material-tailwind/react/Icon";
 
 function Header() {
     return (
-        <div className="flex items-center top-0 z-50 px-4 py-2 shadow-md bg-white ">
+        <header className="flex items-center top-0 z-50 px-4 py-2 shadow-md bg-white ">
             <Button
                 color="gray"
                 buttonType="outline"
@@ -43,7 +43,7 @@ function Header() {
                 className="cursor-pointer h-12 w-12 rounded-full ml-2"
                 src="https://media-exp3.licdn.com/dms/image/C4D03AQGEL2j1GwBl5Q/profile-displayphoto-shrink_200_200/0/1587811400631?e=1631750400&v=beta&t=JbZgE3OIPPpkp9wwT-8wwp4S3rY2B12t8YBN2gQwrPQ"
             />
-        </div>
+        </header>
     )
 }
 
