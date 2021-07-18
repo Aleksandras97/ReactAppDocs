@@ -21,7 +21,7 @@ export default function Home() {
 
 
   const [showModal, setShowModal] = useState(false);
-  const [input, setInput] = useState('')
+  const [input, setInput] = useState("");
   const [snapshot] = useCollectionOnce(
       db
       .collection("userDocs")
